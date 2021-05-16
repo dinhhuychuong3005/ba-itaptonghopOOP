@@ -34,11 +34,9 @@ public class Family {
         this.address = address;
     }
 
-    @Override
-    public String toString() {
-        return "Family{" +
-                "arr=" + arr +
-                ", address='" + address + '\'' +
-                '}';
+    public void display(){
+        for (int i = 0;i< arr.length;i++){
+            System.out.println(arr[i] + " address " + address);
+        }
     }
 }
