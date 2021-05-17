@@ -3,7 +3,7 @@ package bt4;
 import java.util.Arrays;
 
 public class Family {
-    private Person [] arr = new Person[5];
+    private Person [] arr = new Person[3];
     private int size = 0;
     private String address;
 

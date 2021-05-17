@@ -31,7 +31,7 @@ public class ManagerOfficer {
             }
             }
             if (check == true) {
-                System.out.println(index + 1);
+                System.out.println(arr1[index].toString());
             } else {
                 System.out.println("không có cán bộ cần tìm");
             }

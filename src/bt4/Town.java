@@ -3,7 +3,7 @@ package bt4;
 import java.util.Scanner;
 
 public class Town {
-    private Family[] arr1 = new Family[5];
+    private Family[] arr1 = new Family[3];
     private int size = 0;
 
     public Town(Family[] arr1) {

@@ -33,8 +33,6 @@ public class main {
             }
             Family family = new Family(persons, address);
             town.thêm(family);
-
-
         }
         System.out.println("Khu phố có " + n + " Hộ gia đình là:");
         town.display();

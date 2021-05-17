@@ -99,6 +99,7 @@ public class main {
                 }
                 case "4": {
                     quanLyTaiLieu.xoa(quanLyTaiLieu.getArr());
+                    break;
                 }
                 case "3": {
                     quanLyTaiLieu.print();
