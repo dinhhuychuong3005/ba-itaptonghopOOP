@@ -78,4 +78,17 @@ public class Teacher {
     public void setId(String id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "salary=" + salary +
+                ", bonus=" + bonus +
+                ", penaty=" + penaty +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", hometown='" + hometown + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
 }

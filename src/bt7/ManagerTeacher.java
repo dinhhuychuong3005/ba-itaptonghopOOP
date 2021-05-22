@@ -39,7 +39,7 @@ public class ManagerTeacher {
     public void delete(Teacher[]arr){
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập số chứng minh thư của khách cần xóa");
-        String id = sc.nextLine();
+        String id = sc.next();
         Teacher[] arr1 = new Teacher[size - 1];
         boolean check = false;
         for (int i = 0; i < size; i++) {
@@ -58,7 +58,7 @@ public class ManagerTeacher {
         if (check == true) {
             System.out.println("sau khi xóa:");
             for (int i = 0; i < arr1.length; i++) {
-                System.out.println(arr1[i] + ",");
+                System.out.println(arr1[i].toString() + ",");
             }
         } else {
             System.out.println("không có khách có số chứng minh thư như trên");

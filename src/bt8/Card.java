@@ -1,6 +1,6 @@
 package bt8;
 
-public class Card extends Student{
+public class Card extends Student {
     private String id;
     private int borrowDate;
     private int paymentDate;
